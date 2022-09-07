@@ -125,6 +125,7 @@ def isInChromiumBlacklist(file_path):
           and not file_path.startswith('content/shell/common')
           and not file_path.endswith('.grd'))
         or file_path.startswith('courgette')
+        or file_path.startswith('docs/website/')
         or file_path.startswith('google_update')
         or file_path.startswith('ios')
         or file_path.startswith('media/base/android/java')
